@@ -15,6 +15,10 @@
         {
             "source": "/api/",
             "destination": "https://api.tuostudy.com/api/"
+        },
+        {
+            "source": "/api/raw/",
+            "destination": "https://api.tuostudy.com/api/raw/"
         }
     ]
 }
