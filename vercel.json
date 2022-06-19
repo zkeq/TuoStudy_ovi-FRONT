@@ -7,6 +7,13 @@
             "headers": {
                 "cache-control": "ms-maxage=1000"
             }
+        },
+        {
+            "src": "/(.*)",
+            "dest": "https://api.tuostudy.com/$1",
+            "headers": {
+                "cache-control": "ms-maxage=1000"
+            }
         }
     ]
   }
