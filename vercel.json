@@ -1,26 +1,6 @@
 {
     "rewrites": [
         {
-            "source": "/:match*",
-            "destination": "https://api.tuostudy.com/:match*"
-        },
-        {
-            "source": "/api/",
-            "destination": "https://api.tuostudy.com/api/"
-        },
-        {
-            "source": "/api/raw/",
-            "destination": "https://api.tuostudy.com/api/raw/"
-        },
-        {
-            "source": "/api/search/",
-            "destination": "https://api.tuostudy.com/api/search/"
-        },
-        {
-            "source": "/api/item/",
-            "destination": "https://api.tuostudy.com/api/item/"
-        },
-        {
             "source": "/_next/image/",
             "destination": "/favicon.ico"
         },
