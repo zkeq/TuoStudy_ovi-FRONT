@@ -19,6 +19,10 @@
         {
             "source": "/api/raw/",
             "destination": "https://api.tuostudy.com/api/raw/"
+        },
+        {
+            "source": "/_next/image/",
+            "destination": "/favicon.ico"
         }
     ]
 }
