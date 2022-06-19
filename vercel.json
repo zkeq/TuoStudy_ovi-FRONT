@@ -5,6 +5,10 @@
             "destination": "https://api.tuostudy.com/api/:match*"
         },
         {
+            "source": "/api/raw/:match*",
+            "destination": "https://api.tuostudy.com/api/raw/:match*"
+        },
+        {
             "source": "/:match*",
             "destination": "https://api.tuostudy.com/:match*"
         },
