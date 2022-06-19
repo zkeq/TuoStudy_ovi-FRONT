@@ -23,6 +23,10 @@
         {
             "source": "/_next/image/",
             "destination": "/favicon.ico"
+        },
+        {
+            "source": "/:path(.*)",
+            "destination": "https://api.tuostudy.com/:path*"
         }
     ]
 }
