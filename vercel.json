@@ -1,6 +1,10 @@
 {
     "rewrites": [
         {
+            "source": "/:match*",
+            "destination": "https://api.tuostudy.com/:match*"
+        },
+        {
             "source": "/api/",
             "destination": "https://api.tuostudy.com/api/"
         },
