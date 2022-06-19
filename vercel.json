@@ -1,19 +1,16 @@
 {
-    "version": 2,
-    "routes": [
+    "rewrites": [
         {
-            "src": "/api/(.*)",
-            "dest": "https://api.tuostudy.com/api/$1",
-            "headers": {
-                "cache-control": "ms-maxage=1000"
-            }
+            "source": "/api/:match*",
+            "destination": "https://api.tuostudy.com/api/:match*"
         },
         {
-            "src": "/(.*)",
-            "dest": "https://api.tuostudy.com/$1",
-            "headers": {
-                "cache-control": "ms-maxage=1000"
-            }
+            "source": "/:match*",
+            "destination": "https://api.tuostudy.com/:match*"
+        },
+        {
+            "source": "/api/",
+            "destination": "https://api.tuostudy.com/api/"
         }
     ]
-  }
+}
