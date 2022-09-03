@@ -6,7 +6,7 @@
         },
         {
             "source": "/:path(.*)",
-            "destination": "https://api.tuostudy.com/:path*"
+            "destination": "https://tuostudy.onmicrosoft.cn/:path*"
         }
     ]
 }
