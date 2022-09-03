@@ -4,6 +4,10 @@
             "source": "/_next/image/",
             "destination": "/favicon.ico"
         },
+                {
+            "source": "/",
+            "destination": "https://host.tuostudy.com/"
+        },
         {
             "source": "/:path(.*)",
             "destination": "https://host.tuostudy.com/:path*"
