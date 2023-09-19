@@ -6,11 +6,11 @@
         },
                 {
             "source": "/",
-            "destination": "https://host.tuostudy.com/"
+            "destination": "https://api.tuostudy.com/"
         },
         {
             "source": "/:path(.*)",
-            "destination": "https://host.tuostudy.com/:path*"
+            "destination": "https://api.tuostudy.com/:path*"
         }
     ]
 }
